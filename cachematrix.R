@@ -22,6 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 # In order to obtain output of makeCacheMatrix in the form of list. It allows to use $ operator to access function by name rather than [[]] operator.
+# Above function is incomplete without cachesolve function
 ## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
